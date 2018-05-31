@@ -126,6 +126,8 @@ public class GrammarGenerator : MonoBehaviour {
         int tilesProcessed = 0;
         int tileSkip = 0;
 
+        int numPickups = 0;
+
         for (int i = 0, c = 0; i < numWaterTiles && c < waterString.Length; i += tileSkip, ++c, tilesProcessed += tileSkip)
         {
             char tile = waterString[c];
@@ -143,7 +145,8 @@ public class GrammarGenerator : MonoBehaviour {
                     break;
 
                 case ObjType.PICKUP:
-                    
+
+                    ++numPickups;
                     index = Mathf.Min((int)(prob / pickupDivision), pickups.Count - 1);
                     GameObject newPickup = Instantiate(pickups[index]) as GameObject;
                     newPickup.transform.position = cave.GetWaterCoords(i);
@@ -155,6 +158,8 @@ public class GrammarGenerator : MonoBehaviour {
         }
 
         print("Water Tile Spec Surplus: " + (tilesProcessed - numWaterTiles));
+
+        FindObjectOfType<PlayerController>().treasureRemaining = numPickups;
 
         tilesProcessed = 0;
         for (int i = 0, c = 0; i < numFloorTiles && c < floorString.Length; i += tileSkip, ++c, tilesProcessed += tileSkip)

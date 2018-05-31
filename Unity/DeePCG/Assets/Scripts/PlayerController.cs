@@ -1,10 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     public GameObject projectile;
+
+    public Text scoreText;
+    public Text treasureText;
+    public Text deathText;
 
     public float weaponCool = 0.5f;
     private float weaponTimer = 0.0f;
@@ -18,6 +23,10 @@ public class PlayerController : MonoBehaviour
 
     private bool cooling = false;
     private bool dead = false;
+
+    public int treasureRemaining { get; set; }
+    private int score = 0;
+    private int deaths = 0;
 
     private void Awake()
     {
@@ -44,7 +53,9 @@ public class PlayerController : MonoBehaviour
             if (motionAmount == Vector3.zero)
                 return;
 
-            lastAim = motionAmount.normalized;
+            if(motionAmount.x != 0.0f)
+                lastAim = new Vector3(motionAmount.x, 0.0f, 0.0f).normalized;
+
             motionAmount = moveSpeed * Time.deltaTime * motionAmount.normalized;
 
             if (motionAmount.x > 0)
@@ -85,13 +96,28 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void OnGUI()
+    {
+        deathText.text = deaths.ToString();
+        treasureText.text = treasureRemaining.ToString();
+        scoreText.text = score.ToString();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Enemy"))
         {
             anim.SetTrigger("Die");
+            score = Mathf.Clamp(score - 1000, 0, score);
             dead = true;
+            ++deaths;
             deathTimer = 0.0f;
+        }
+        else if(collision.CompareTag("Pickup"))
+        {
+            score += 200;
+            --treasureRemaining;
+            Destroy(collision.gameObject);
         }
     }
 }
