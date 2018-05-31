@@ -171,6 +171,8 @@ public class GrammarGenerator : MonoBehaviour {
                     GameObject newFlora = Instantiate(flora[index]) as GameObject;
                     newFlora.transform.position = cave.GetFloorCoords(i);
 
+                    cave.flora.Add(cave.GetTileCoords(newFlora.transform.position), newFlora);
+
                     break;
             }
 

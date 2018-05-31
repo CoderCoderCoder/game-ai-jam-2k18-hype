@@ -35,7 +35,8 @@ public class CaveGenerator : MonoBehaviour {
 
     private List<Vector3Int> floorCoordinates;
     private List<Vector3Int> waterCoordinates;
-
+    public Dictionary<Vector3Int, GameObject> flora;
+       
     void Start()
     {
         grid = new int[rows, columns];
@@ -43,16 +44,21 @@ public class CaveGenerator : MonoBehaviour {
 
         floorCoordinates = new List<Vector3Int>();
         waterCoordinates = new List<Vector3Int>();
+        flora = new Dictionary<Vector3Int, GameObject>();
 
+        Generate();
+    }
+
+    void Generate()
+    {
         PopulateInitially();
 
-        for(int i = 0; i < iterations; ++i)
+        for (int i = 0; i < iterations; ++i)
         {
             Iterate();
         }
 
         PopulateTileset();
-
     }
 
     void PopulateInitially()
@@ -129,6 +135,22 @@ public class CaveGenerator : MonoBehaviour {
         return floorCoordinates.Count;
     }
 
+    public void TryDestroyTile(Vector3 pos)
+    {
+        Vector3Int tileCoords = tilemap.WorldToCell(pos);
+
+        if (tileCoords.x < buffer || tileCoords.x > (rows - buffer) || tileCoords.y < buffer || tileCoords.y > (columns - buffer))
+            return;
+
+        if(flora.ContainsKey(tileCoords))
+        {
+            Destroy(flora[tileCoords]);
+            flora.Remove(tileCoords);
+        }
+
+        tilemap.SetTile(tileCoords, null);
+    }
+
     public Vector3 GetWaterCoords(int index)
     {
         return tilemap.GetCellCenterWorld(waterCoordinates[index]);
@@ -137,6 +159,11 @@ public class CaveGenerator : MonoBehaviour {
     public Vector3 GetFloorCoords(int index)
     {
         return tilemap.GetCellCenterWorld(floorCoordinates[index]) + tilemap.cellSize.y * 0.4f * Vector3.up;
+    }
+
+    public Vector3Int GetTileCoords(Vector3 pos)
+    {
+        return tilemap.WorldToCell(pos);
     }
 
 	void PopulateTileset()
@@ -159,6 +186,7 @@ public class CaveGenerator : MonoBehaviour {
 
         tilemap.ClearAllTiles();
         floorCoordinates.Clear();
+        flora.Clear();
 
         Vector3Int playerOrigin = tilemap.WorldToCell(Vector3.zero);
         for(int i = -1; i < 2; ++i)

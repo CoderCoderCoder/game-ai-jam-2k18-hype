@@ -536,7 +536,7 @@ Tilemap:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: 0, y: 0, z: 0}
   m_Size: {x: 0, y: 0, z: 1}
-  m_TileAnchor: {x: 0, y: 0, z: 0}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
     e00: 1
@@ -989,7 +989,7 @@ GameObject:
   - component: {fileID: 1680807193}
   - component: {fileID: 1680807194}
   - component: {fileID: 1680807195}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1066,7 +1066,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295d6394778660d43a6d368d117f7478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectile: {fileID: 1515102252476308, guid: aec22852bd20e6a458b396886867236f, type: 2}
+  weaponCool: 0.5
   moveSpeed: 16
+  deathTime: 2
 --- !u!61 &1680807193
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1214,7 +1217,7 @@ GameObject:
   - component: {fileID: 1736169098}
   - component: {fileID: 1736169100}
   - component: {fileID: 1736169099}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bubbles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1228,7 +1231,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1736169097}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: -0.93, y: 1.03, z: 0}
+  m_LocalPosition: {x: -0.25, y: 1.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1680807191}
@@ -1912,8 +1915,8 @@ ParticleSystem:
         m_RotationOrder: 4
   ShapeModule:
     serializedVersion: 5
-    enabled: 0
-    type: 4
+    enabled: 1
+    type: 18
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -1921,7 +1924,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 1, y: 1, z: 1}
+    m_Scale: {x: 3.2780137, y: 0.14760298, z: 0}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -6050,7 +6053,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.21875
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

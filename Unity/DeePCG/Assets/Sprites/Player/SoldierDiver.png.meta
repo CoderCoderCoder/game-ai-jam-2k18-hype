@@ -133,6 +133,7 @@ TextureImporter:
     21300256: SoldierDiver_83
     21300258: SoldierDiver_85
     21300260: SoldierDiver_86
+    21300262: SoldierDiver_87
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -2720,8 +2721,8 @@ TextureImporter:
         y: 261
         width: 63
         height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2740,8 +2741,8 @@ TextureImporter:
         y: 261
         width: 64
         height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2760,8 +2761,8 @@ TextureImporter:
         y: 260
         width: 65
         height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2780,6 +2781,26 @@ TextureImporter:
         y: 258
         width: 66
         height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47b192c8c2d27e4898276ef07256168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_87
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 120
+        width: 57
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2787,7 +2808,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a47b192c8c2d27e4898276ef07256168
+      spriteID: 15ae34ceb375baa4bbb0a3c1fa05c9b7
       vertices: []
       indices: 
       edges: []
