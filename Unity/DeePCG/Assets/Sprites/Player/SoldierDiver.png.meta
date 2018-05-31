@@ -1,0 +1,2806 @@
+fileFormatVersion: 2
+guid: f7d7e5ef107ac5640971d8f471924d74
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SoldierDiver_0
+    21300002: SoldierDiver_1
+    21300004: SoldierDiver_2
+    21300006: SoldierDiver_3
+    21300008: SoldierDiver_4
+    21300010: SoldierDiver_5
+    21300012: SoldierDiver_6
+    21300014: SoldierDiver_7
+    21300016: SoldierDiver_8
+    21300018: SoldierDiver_9
+    21300020: SoldierDiver_10
+    21300022: SoldierDiver_11
+    21300024: SoldierDiver_12
+    21300026: SoldierDiver_13
+    21300028: SoldierDiver_14
+    21300030: SoldierDiver_15
+    21300032: SoldierDiver_16
+    21300034: SoldierDiver_17
+    21300036: SoldierDiver_18
+    21300038: SoldierDiver_19
+    21300040: SoldierDiver_20
+    21300042: SoldierDiver_21
+    21300044: SoldierDiver_22
+    21300046: SoldierDiver_23
+    21300048: SoldierDiver_24
+    21300050: SoldierDiver_25
+    21300052: SoldierDiver_26
+    21300054: SoldierDiver_27
+    21300056: SoldierDiver_28
+    21300058: SoldierDiver_29
+    21300060: SoldierDiver_30
+    21300062: SoldierDiver_31
+    21300064: SoldierDiver_32
+    21300066: SoldierDiver_33
+    21300068: SoldierDiver_34
+    21300070: SoldierDiver_35
+    21300072: SoldierDiver_36
+    21300074: SoldierDiver_37
+    21300076: SoldierDiver_38
+    21300078: SoldierDiver_39
+    21300080: SoldierDiver_40
+    21300082: SoldierDiver_41
+    21300084: SoldierDiver_42
+    21300086: SoldierDiver_43
+    21300088: SoldierDiver_44
+    21300090: SoldierDiver_45
+    21300092: SoldierDiver_46
+    21300094: SoldierDiver_47
+    21300096: SoldierDiver_48
+    21300098: SoldierDiver_49
+    21300100: SoldierDiver_50
+    21300102: SoldierDiver_51
+    21300104: SoldierDiver_52
+    21300106: SoldierDiver_53
+    21300108: SoldierDiver_54
+    21300110: SoldierDiver_55
+    21300112: SoldierDiver_56
+    21300114: SoldierDiver_57
+    21300116: SoldierDiver_58
+    21300118: SoldierDiver_59
+    21300120: SoldierDiver_60
+    21300122: SoldierDiver_61
+    21300124: SoldierDiver_62
+    21300126: SoldierDiver_63
+    21300128: SoldierDiver_64
+    21300130: SoldierDiver_65
+    21300132: SoldierDiver_66
+    21300134: SoldierDiver_67
+    21300136: SoldierDiver_68
+    21300138: SoldierDiver_69
+    21300140: SoldierDiver_70
+    21300142: SoldierDiver_71
+    21300144: SoldierDiver_72
+    21300146: SoldierDiver_73
+    21300148: SoldierDiver_74
+    21300150: SoldierDiver_75
+    21300152: SoldierDiver_76
+    21300154: SoldierDiver_77
+    21300156: SoldierDiver_78
+    21300158: SoldierDiver_79
+    21300160: SoldierDiver_80
+    21300162: SoldierDiver_82
+    21300164: SoldierDiver_84
+    21300166: SoldierDiver_94
+    21300168: SoldierDiver_95
+    21300170: SoldierDiver_103
+    21300172: SoldierDiver_104
+    21300174: SoldierDiver_105
+    21300176: SoldierDiver_106
+    21300178: SoldierDiver_107
+    21300180: SoldierDiver_108
+    21300182: SoldierDiver_109
+    21300184: SoldierDiver_110
+    21300186: SoldierDiver_111
+    21300188: SoldierDiver_112
+    21300190: SoldierDiver_113
+    21300192: SoldierDiver_114
+    21300194: SoldierDiver_115
+    21300196: SoldierDiver_116
+    21300198: SoldierDiver_117
+    21300200: SoldierDiver_118
+    21300202: SoldierDiver_119
+    21300204: SoldierDiver_120
+    21300206: SoldierDiver_121
+    21300208: SoldierDiver_122
+    21300210: SoldierDiver_123
+    21300212: SoldierDiver_124
+    21300214: SoldierDiver_125
+    21300216: SoldierDiver_126
+    21300218: SoldierDiver_127
+    21300220: SoldierDiver_128
+    21300222: SoldierDiver_129
+    21300224: SoldierDiver_130
+    21300226: SoldierDiver_131
+    21300228: SoldierDiver_132
+    21300230: SoldierDiver_133
+    21300232: SoldierDiver_134
+    21300234: SoldierDiver_135
+    21300236: SoldierDiver_136
+    21300238: SoldierDiver_137
+    21300240: SoldierDiver_138
+    21300242: SoldierDiver_139
+    21300244: SoldierDiver_140
+    21300246: SoldierDiver_141
+    21300248: SoldierDiver_142
+    21300250: SoldierDiver_143
+    21300252: SoldierDiver_144
+    21300254: SoldierDiver_81
+    21300256: SoldierDiver_83
+    21300258: SoldierDiver_85
+    21300260: SoldierDiver_86
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SoldierDiver_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 695
+        width: 54
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f242a4a1a95b1994d9e604d63102a262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 697
+        width: 56
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71351bba0672b624da6cab5c0ffb9fd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 697
+        width: 55
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96feebc9d67c7b44198dab5641b9bf63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 696
+        width: 51
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e253ca2b3ed3c824c86cb3c6f7895feb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_4
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 690
+        width: 54
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa05dbaf3790cc442a779b3f9fc51a8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_5
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 692
+        width: 56
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f017c9e7517c9fb42bb329d42b645a8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 693
+        width: 57
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b7bf782ae675042be998db4cf448c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_7
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 692
+        width: 56
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650c3d51f37e3944488574ded135b0e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_8
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 691
+        width: 52
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fad18622d33ef54e9e777b4b41583f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_9
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 684
+        width: 50
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b84cd9bd1ec5b47820832313dd1597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 644
+        width: 54
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2d498e77830ba40858b745e101577f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 645
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901b2ecc85a86474f8965f1e33fbc090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_12
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 645
+        width: 53
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b341cc2b54044b24d83c39450e9d60ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 645
+        width: 51
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ffd4bdec38b3147b62a655a1e80045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 593
+        width: 49
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66f34366b81caa428b546e2d1a0104b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 593
+        width: 49
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e4086eb74b52c459b16c9d8bd9671d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_16
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 593
+        width: 51
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecae4014d9c7244fbc36131e0f1d770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 593
+        width: 51
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec84cc35020a4340a45343d97a998ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 593
+        width: 51
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3723138a57fc5043998933d185126b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 593
+        width: 51
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c298aad90870a94d97d2fd66203d272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_20
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 593
+        width: 51
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31fdb53a6bc45348bee66cc2b018788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_21
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 593
+        width: 49
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c77febd0095f9d4884f20941ba15a41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_22
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 592
+        width: 41
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ea3753899e62140a876292868f4b59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_23
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 592
+        width: 29
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f42f885c2b20ee42ba7e9ab92e29732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_24
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 593
+        width: 23
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becf19a5b0838ab4484c110b6075ea04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_25
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 593
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2645d87df3fd2b7489dc34fa57cb0e9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_26
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 593
+        width: 23
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ba28c69f7375e44b624af5436c8a56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_27
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 592
+        width: 29
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d311f9a40cc793439e50039d5569b1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_28
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 592
+        width: 41
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e716df185637e428454be5b1cdc04e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_29
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 537
+        width: 48
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6f73600acb36c46aa37874fe745ca2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_30
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 537
+        width: 48
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb7aca2ad1fc6042b0bc443caf321ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_31
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 537
+        width: 48
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e34dd7bc382a445b94cbbfb47ceb16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_32
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 537
+        width: 44
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1b6f9837b46f140834884a78842932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 537
+        width: 43
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49eeb1e4a0bdf6a43b46ff7f38100daf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_34
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 537
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a17eb34b59cf64990e5f390fd5e24e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_35
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 537
+        width: 32
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da19bfd2dc426c458fecb8dbd9ede7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_36
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 537
+        width: 30
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796463ffe1772e2428e42b71b1057157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_37
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 537
+        width: 30
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad9436f495dfec4bb7206d3936d371b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_38
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 537
+        width: 32
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7230d31e30844c49900c62cfd464a58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_39
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 537
+        width: 32
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1945dafa7abced84c9184f0915e262cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_40
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 537
+        width: 33
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d88651f71226c4e85d42b1a14d4aec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_41
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 537
+        width: 34
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04cef9b1e3c8a24aacca88ef869b352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_42
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 477
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea3680e32924f0488b2ac2b92f87a6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 477
+        width: 38
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4814b2d8a493e95428d14873213e98a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_44
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 477
+        width: 36
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb834e9b277ed2040b15cc6976043b5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_45
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 477
+        width: 34
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f026791f05cee6749b1ddba108242b36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_46
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 475
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6fb1f374ba77240a758fde805ad1e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_47
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 475
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2215f2ebba6e13f4b99854d12b42ef0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_48
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 475
+        width: 34
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd59d2f3bbc03d48972d785b6395450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_49
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 475
+        width: 34
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6ff8000dd677f429e072c8f1cc500e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_50
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 475
+        width: 36
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b74825c8b2d09647b85f32b09c89680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_51
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 475
+        width: 37
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82617ee60a0bba445beb22cc7a34f815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_52
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 475
+        width: 42
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2d5e5e4835b2f4290b45a28866df87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_53
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 475
+        width: 45
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70eafec60eda67f44b1bf675b15cee3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_54
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 475
+        width: 48
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd53c7497d0b9f4eb864b19288ae259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_55
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 475
+        width: 44
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255dd7b7b5d164f4bacd23e032d77d41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 423
+        width: 42
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e3ff3c1448d124b9195c3273aa98ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_57
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 423
+        width: 43
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dfecbdd640a334f9511d7f619554eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_58
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 423
+        width: 42
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cb648807523f84fa061a8227048f1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_59
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 424
+        width: 44
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2928fe12a813b0408f8b0988f1a7672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_60
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 425
+        width: 48
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57adeb04222274d4eba48d81c5cd1498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 371
+        width: 36
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cd19c6300272b4c92a81ec138393a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_62
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 370
+        width: 37
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5be5342dd305cd41ab3953f1e4bd85d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_63
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 369
+        width: 40
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75557c8f6a9f4334db13b5948a01bcae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_64
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 372
+        width: 40
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103cad83e41e7c044bbd8937f385199a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_65
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 369
+        width: 34
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e7609b7756a0c42b384152e35b8f64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_66
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 366
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95abe5a93f10eb419629f977075915c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_67
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 368
+        width: 34
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350c0f58c86a9064e9d49d1dfcc44075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_68
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 365
+        width: 41
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d68d50439b0b242bb51d29468c6765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_69
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 367
+        width: 42
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec9e66f8cf8ef54a920e596cddf5b48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_70
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 373
+        width: 43
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0874e0f05084ef408c1b72c95351fa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_71
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 372
+        width: 40
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15288de9cd1428743b82ef21b04bc97a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_72
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 368
+        width: 35
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b73669065b398f4ca0516e8fa8770cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_73
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 365
+        width: 33
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbc5e66a7d23c142a50d6738e6449af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_74
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 364
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaf375f579019344affcaa9d401387c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_75
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 325
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85eca631bd007d4458883cc32817787b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_76
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 325
+        width: 29
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb1f4cf7fbfc3c4ab931817ec6d4eae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_77
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 265
+        width: 43
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0256511840ff0fc42a19a95409508511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_78
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 265
+        width: 46
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232296d937b75b341803db0f24724186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_79
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 265
+        width: 53
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ca08b0b8db3794689e129d56cf4d5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_80
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 265
+        width: 57
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adac8e3267058c4c9972a5a5f215412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_82
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 264
+        width: 61
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1d52fdb80e6624a9bfee8d7723e073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_84
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 263
+        width: 62
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd857c3e871bd74a9c85dafae57ef41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_94
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 265
+        width: 36
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4583b428801e81943a78eb75fafbeb5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_95
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 265
+        width: 35
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf3e5438ede4d742ad4d8ab42eeacd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_105
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 197
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d77c76edf67df640852739699eb7a5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_106
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 197
+        width: 47
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41db5637b6d86dd47882cf84a90b0075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_107
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 197
+        width: 46
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb455c898a80134088be256253be98d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_108
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 197
+        width: 55
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ddd331e89b98341a7e4aab0009107b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_109
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 198
+        width: 68
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023d93882ceada84a8f1324ae39311b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_110
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 198
+        width: 69
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32557223d0876d848965c9d46b2ec395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_111
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 198
+        width: 68
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9aa1e1914eed045b0b279d9587966a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_112
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 197
+        width: 55
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f2a934450986243ba1546cb8cd6b71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_113
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 196
+        width: 42
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5790279685bbb4449238448c12be39e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_114
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 196
+        width: 46
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca95e63982ffe284482ed99217f906f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_115
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 196
+        width: 47
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e8840b43dc90b47bce4e1028969065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_116
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 197
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffd7bfd28819124ab75f9977b0d2752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_117
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 149
+        width: 36
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaa632b40bd43e4887a3bd6f5de823b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_118
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 148
+        width: 35
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841244c816615364e956701c93c963e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_119
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 146
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c347bc8e599784f98ac3b77f9f7ad3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_120
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 143
+        width: 26
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0c23f6ccf3ebd4f8be812c354dec07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_121
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 142
+        width: 20
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86fa393bbc0ba246a8a6e12708bcc34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_122
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 142
+        width: 15
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baea7386877eb3a47a5f6dd6dd728e0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_123
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 97
+        width: 28
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f045a7e146fe454b90f18468ac4cc69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_124
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 98
+        width: 29
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9422f28b20ecf944aaa6c06a2a80eaf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_125
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 99
+        width: 25
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd6e86af8f4b7b498feb4f35bff2664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_126
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 98
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fc4b79be0e02446a545923e9967f87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_127
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 99
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2af64f5e9186b943869f25dd5a9b7a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_128
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 100
+        width: 10
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1914c49ef750ca4429b2f6f3090922c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_129
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 100
+        width: 10
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aa5c5c551b73347b82d49d15eecb2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_130
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 100
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75d9b47e12b27b48a13b9a34532520f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_131
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 100
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdea518757ae454ba27e64b567c7c4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_132
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 98
+        width: 25
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25fb1d5324be2f4caf70fe591fb3221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_133
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 98
+        width: 29
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f788daf56a2a59489ef8b897dbb30f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_134
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 94
+        width: 28
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5988acd5cee717a41af8a0b04d71f589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_135
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 95
+        width: 29
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ef1ee0968848d419cd648bf7415ebf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_136
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 97
+        width: 25
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16ebcfd89be7524b9e951b33ab43280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_137
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 96
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34e97505e4db5d41a1e98a66ccac104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_138
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 97
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb512f557976ee459ba2811e67578de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_139
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 96
+        width: 10
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3166233e419fb274a9e793f056859c36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_140
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 96
+        width: 10
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad6778ce91ab9f4495d5c3c88c406ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_141
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 96
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d014ef3654f594fa1cd585f3d6ed59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_142
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 94
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668832ebcdbf4384faf3a64680ee0436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_143
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 94
+        width: 25
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d94cd9b546267144a491b341924127d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_144
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 93
+        width: 29
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c201a747977ccb946913697208bc2af7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_81
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 261
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4c3b10beb1c02489251d6806a85b73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_83
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 261
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e061d0889fcff47872e6be3ae09f93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_85
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 260
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8856d7e9800eef946bd6d92eae48b694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldierDiver_86
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 258
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47b192c8c2d27e4898276ef07256168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2393db7c9b1b707489152d468e0a2144
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

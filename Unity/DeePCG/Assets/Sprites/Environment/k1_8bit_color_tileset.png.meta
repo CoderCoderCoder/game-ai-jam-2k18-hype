@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 9ad68eedf5c8e7945898534b0857dd12
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: k1_8bit_color_tileset_0
+    21300002: k1_8bit_color_tileset_1
+    21300004: k1_8bit_color_tileset_2
+    21300006: k1_8bit_color_tileset_3
+    21300008: k1_8bit_color_tileset_4
+    21300010: k1_8bit_color_tileset_5
+    21300012: k1_8bit_color_tileset_6
+    21300014: k1_8bit_color_tileset_7
+    21300016: k1_8bit_color_tileset_8
+    21300018: k1_8bit_color_tileset_9
+    21300020: k1_8bit_color_tileset_10
+    21300022: k1_8bit_color_tileset_11
+    21300024: k1_8bit_color_tileset_12
+    21300026: k1_8bit_color_tileset_13
+    21300028: k1_8bit_color_tileset_14
+    21300030: k1_8bit_color_tileset_15
+    21300032: k1_8bit_color_tileset_16
+    21300034: k1_8bit_color_tileset_17
+    21300036: k1_8bit_color_tileset_18
+    21300038: k1_8bit_color_tileset_19
+    21300040: k1_8bit_color_tileset_20
+    21300042: k1_8bit_color_tileset_21
+    21300044: k1_8bit_color_tileset_22
+    21300046: k1_8bit_color_tileset_23
+    21300048: k1_8bit_color_tileset_24
+    21300050: k1_8bit_color_tileset_25
+    21300052: k1_8bit_color_tileset_26
+    21300054: k1_8bit_color_tileset_27
+    21300056: k1_8bit_color_tileset_28
+    21300058: k1_8bit_color_tileset_29
+    21300060: k1_8bit_color_tileset_30
+    21300062: k1_8bit_color_tileset_31
+    21300064: k1_8bit_color_tileset_32
+    21300066: k1_8bit_color_tileset_33
+    21300068: k1_8bit_color_tileset_34
+    21300070: k1_8bit_color_tileset_35
+    21300072: k1_8bit_color_tileset_36
+    21300074: k1_8bit_color_tileset_37
+    21300076: k1_8bit_color_tileset_38
+    21300078: k1_8bit_color_tileset_39
+    21300080: k1_8bit_color_tileset_40
+    21300082: k1_8bit_color_tileset_41
+    21300084: k1_8bit_color_tileset_42
+    21300086: k1_8bit_color_tileset_43
+    21300088: k1_8bit_color_tileset_44
+    21300090: k1_8bit_color_tileset_45
+    21300092: k1_8bit_color_tileset_46
+    21300094: k1_8bit_color_tileset_47
+    21300096: k1_8bit_color_tileset_48
+    21300098: k1_8bit_color_tileset_49
+    21300100: k1_8bit_color_tileset_50
+    21300102: k1_8bit_color_tileset_51
+    21300104: k1_8bit_color_tileset_52
+    21300106: k1_8bit_color_tileset_53
+    21300108: k1_8bit_color_tileset_54
+    21300110: k1_8bit_color_tileset_55
+    21300112: k1_8bit_color_tileset_56
+    21300114: k1_8bit_color_tileset_57
+    21300116: k1_8bit_color_tileset_58
+    21300118: k1_8bit_color_tileset_59
+    21300120: k1_8bit_color_tileset_60
+    21300122: k1_8bit_color_tileset_61
+    21300124: k1_8bit_color_tileset_62
+    21300126: k1_8bit_color_tileset_63
+    21300128: k1_8bit_color_tileset_64
+    21300130: k1_8bit_color_tileset_65
+    21300132: k1_8bit_color_tileset_66
+    21300134: k1_8bit_color_tileset_67
+    21300136: k1_8bit_color_tileset_68
+    21300138: k1_8bit_color_tileset_69
+    21300140: k1_8bit_color_tileset_70
+    21300142: k1_8bit_color_tileset_71
+    21300144: k1_8bit_color_tileset_72
+    21300146: k1_8bit_color_tileset_73
+    21300148: k1_8bit_color_tileset_74
+    21300150: k1_8bit_color_tileset_75
+    21300152: k1_8bit_color_tileset_76
+    21300154: k1_8bit_color_tileset_77
+    21300156: k1_8bit_color_tileset_78
+    21300158: k1_8bit_color_tileset_79
+    21300160: k1_8bit_color_tileset_80
+    21300162: k1_8bit_color_tileset_81
+    21300164: k1_8bit_color_tileset_82
+    21300166: k1_8bit_color_tileset_83
+    21300168: k1_8bit_color_tileset_84
+    21300170: k1_8bit_color_tileset_85
+    21300172: k1_8bit_color_tileset_86
+    21300174: k1_8bit_color_tileset_87
+    21300176: k1_8bit_color_tileset_88
+    21300178: k1_8bit_color_tileset_89
+    21300180: k1_8bit_color_tileset_90
+    21300182: k1_8bit_color_tileset_91
+    21300184: k1_8bit_color_tileset_92
+    21300186: k1_8bit_color_tileset_93
+    21300188: k1_8bit_color_tileset_94
+    21300190: k1_8bit_color_tileset_95
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: k1_8bit_color_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 48
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7067f6cacb2151f4eb696ec6296df319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k1_8bit_color_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 192
+        width: 45
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7111cec2688477f4dbdf2bc9125025bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k1_8bit_color_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 195
+        width: 40
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b4df53c0b96914caa5d8f85966c657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k1_8bit_color_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 192
+        width: 33
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4f9951ea9f6c743821197305e60cc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k1_8bit_color_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 164
+        width: 41
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e7f3d3872bd2d4ab8af9651d57f7be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k1_8bit_color_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 160
+        width: 40
+        height: 30
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154cb2397c354fd4985de5b5e0177d07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k1_8bit_color_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 53
+        width: 11
+        height: 43
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1571e1277cc7c4eaecc623ea7f28ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k1_8bit_color_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 192
+        width: 28
+        height: 27
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b18077b2967d947b4d720d182eb936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2d7a5406fb27ccf498afa2aa06970035
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
