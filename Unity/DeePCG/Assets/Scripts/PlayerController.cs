@@ -9,12 +9,17 @@ public class PlayerController : MonoBehaviour
     {
         NOT_STARTED = 0,
         LOADING = 100,
-        GAME_OVER = 200
+        PLAYING = 200,
+        GAME_OVER = 300
     };
 
-    private GameState gameState;
+    private GameState gameState = GameState.NOT_STARTED;
     public GameObject projectile;
     public GameObject crosshair;
+
+    public GameObject startSplash;
+    public GameObject loadSplash;
+    public GameObject overSplash;
 
     public Text scoreText;
     public Text treasureText;
@@ -26,6 +31,7 @@ public class PlayerController : MonoBehaviour
     public float deathTime = 2.0f;
     private float deathTimer = 0.0f;
     public int lives = 3;
+    private int livesRemaining;
 
     private SpriteRenderer sprite;
     private Animator anim;
@@ -35,6 +41,7 @@ public class PlayerController : MonoBehaviour
     private bool dead = false;
     private bool facingRight = false;
     private bool earnedLevelLife = false;
+    private bool regenQueued = false;
 
     private int totalLevelTreasure;
     private int treasureRemaining;
@@ -44,6 +51,11 @@ public class PlayerController : MonoBehaviour
     {
         sprite = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+
+        ResetStats();
+
+        gameState = GameState.NOT_STARTED;
+        startSplash.SetActive(true);
     }
 
     void Respawn()
@@ -54,6 +66,12 @@ public class PlayerController : MonoBehaviour
         transform.position = Vector3.zero;
         anim.ResetTrigger("Die");
         anim.Play("PlayerSwim");
+    }
+
+    private void ResetStats()
+    {
+        livesRemaining = lives;
+        score = 0;
     }
 
     public void SetNumTreasures(int numTreasures)
@@ -85,14 +103,69 @@ public class PlayerController : MonoBehaviour
         } 
 	}
 
+    private void RegenLevel()
+    {
+        if (regenQueued)
+            return;
+
+        gameState = GameState.LOADING;
+        loadSplash.SetActive(true);
+        regenQueued = true;
+        StartCoroutine(PerformRegen());
+    }
+
+    private IEnumerator DestroyLevel()
+    {
+        yield return new WaitForEndOfFrame();
+        CaveGenerator caveGen = FindObjectOfType<CaveGenerator>();
+        GrammarGenerator grammarGen = FindObjectOfType<GrammarGenerator>();
+
+        caveGen.ClearAll();
+        grammarGen.ClearAll();
+    }
+
+    private IEnumerator PerformRegen()
+    {
+        yield return new WaitForEndOfFrame();
+        CaveGenerator caveGen = FindObjectOfType<CaveGenerator>();
+        GrammarGenerator grammarGen = FindObjectOfType<GrammarGenerator>();
+        caveGen.Generate();
+        grammarGen.Generate();
+        earnedLevelLife = false;
+        Respawn();
+        loadSplash.SetActive(false);
+        gameState = GameState.PLAYING;
+        regenQueued = false;
+    }
+
     private void Update()
     {
         if(gameState == GameState.NOT_STARTED)
         {
             if(Input.GetKeyDown(KeyCode.Return))
             {
-
+                startSplash.SetActive(false);              
+                RegenLevel();
             }
+
+            return;
+        }
+
+        if (gameState == GameState.LOADING)
+            return;
+
+        if(gameState == GameState.GAME_OVER)
+        {
+            if(Input.GetKeyDown(KeyCode.Return))
+            {
+                gameState = GameState.NOT_STARTED;
+                overSplash.SetActive(false);
+                startSplash.SetActive(true);
+
+                ResetStats();
+            }
+
+            return;
         }
 
         if(dead)
@@ -100,16 +173,20 @@ public class PlayerController : MonoBehaviour
             deathTimer += Time.deltaTime;
 
             if(deathTimer > deathTime)
-                Respawn();
+            {
+                if (livesRemaining < 0)
+                {
+                    gameState = GameState.GAME_OVER;
+                    overSplash.SetActive(true);
+                    StartCoroutine(DestroyLevel());
+                }
+                else
+                    Respawn();
+            }
         }
         else if(Input.GetKeyDown(KeyCode.Return))
         {
-            CaveGenerator caveGen = FindObjectOfType<CaveGenerator>();
-            GrammarGenerator grammarGen = FindObjectOfType<GrammarGenerator>();
-            caveGen.Generate();
-            grammarGen.Generate();
-            earnedLevelLife = false;
-            Respawn();
+            RegenLevel();
         }
         else
         {
@@ -162,19 +239,23 @@ public class PlayerController : MonoBehaviour
 
     private void OnGUI()
     {
-        livesText.text = lives.ToString();
+        livesText.text = (livesRemaining < 0 ? 0 : livesRemaining).ToString();
         treasureText.text = treasureRemaining.ToString();
         scoreText.text = score.ToString();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (gameState != GameState.PLAYING || dead)
+            return;
+
         if(collision.CompareTag("Enemy"))
         {
             anim.SetTrigger("Die");
             score = Mathf.Clamp(score - 1000, 0, score);
             dead = true;
-            --lives;
+            --livesRemaining;
+
             deathTimer = 0.0f;
         }
         else if(collision.CompareTag("Pickup"))
@@ -182,10 +263,10 @@ public class PlayerController : MonoBehaviour
             score += 200;
             --treasureRemaining;
 
-            if(treasureRemaining <= 0.2f * totalLevelTreasure && !earnedLevelLife)
+            if(treasureRemaining <= 1.0f * totalLevelTreasure && !earnedLevelLife)
             {
                 earnedLevelLife = true;
-                ++lives;
+                ++livesRemaining;
             }
 
             Destroy(collision.gameObject);

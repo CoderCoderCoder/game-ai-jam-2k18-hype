@@ -72,18 +72,20 @@ public class GrammarGenerator : MonoBehaviour {
         }
 
         worldContents = new List<GameObject>();
-
-        Generate();
 	}
 
-    public void Generate()
+    public void ClearAll()
     {
-        for(int i = 0; i < worldContents.Count; ++i)
+        for (int i = 0; i < worldContents.Count; ++i)
         {
             Destroy(worldContents[i]);
         }
         worldContents.Clear();
+    }
 
+    public void Generate()
+    {
+        ClearAll();
         waterString = waterAxiom;
 
         for (int i = 0; i < waterIterations; ++i)

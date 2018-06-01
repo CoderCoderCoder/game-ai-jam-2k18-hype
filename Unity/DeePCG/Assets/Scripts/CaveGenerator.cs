@@ -45,8 +45,6 @@ public class CaveGenerator : MonoBehaviour {
         floorCoordinates = new List<Vector3Int>();
         waterCoordinates = new List<Vector3Int>();
         flora = new Dictionary<Vector3Int, GameObject>();
-
-        Generate();
     }
 
     public void Generate()
@@ -166,6 +164,11 @@ public class CaveGenerator : MonoBehaviour {
         return tilemap.WorldToCell(pos);
     }
 
+    public void ClearAll()
+    {
+        tilemap.ClearAllTiles();
+    }
+
 	void PopulateTileset()
     {
         for(int i = 0; i < rows; ++i)
@@ -184,7 +187,7 @@ public class CaveGenerator : MonoBehaviour {
             }
         }
 
-        tilemap.ClearAllTiles();
+        ClearAll();
         floorCoordinates.Clear();
         waterCoordinates.Clear();
         flora.Clear();
