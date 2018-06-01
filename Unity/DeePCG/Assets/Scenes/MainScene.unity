@@ -1416,6 +1416,10 @@ MonoBehaviour:
   pickups:
   - {fileID: 1422897102085208, guid: dbd52e5b705c07248beaebadab59f276, type: 2}
   - {fileID: 1302436675969014, guid: 055e9b152c3a48c409d270a1b0f7e3a1, type: 2}
+  - {fileID: 1271609917481134, guid: baa499d684d0fa34d957dc76e325f04f, type: 2}
+  - {fileID: 1710055890206482, guid: 0560ebc607daf7e42901103c674a1aaa, type: 2}
+  - {fileID: 1925520778456848, guid: 75fca58980fed434cb504215247f964d, type: 2}
+  - {fileID: 1175158021911612, guid: 2b397679b9022f84580be0918ff15da9, type: 2}
   rules:
   - key: f
     transforms:

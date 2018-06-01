@@ -289,7 +289,7 @@ public class PlayerController : MonoBehaviour
         else if(collision.CompareTag("Pickup"))
         {
             FindObjectOfType<SFXManager>().PlayPickup();
-            score += 200;
+            score += collision.gameObject.GetComponent<Pickup>().scoreAmount;
             --treasureRemaining;
 
             if(treasureRemaining <= 0.5f * totalLevelTreasure && !earnedLevelLife)

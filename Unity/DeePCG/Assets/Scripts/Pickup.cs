@@ -9,6 +9,8 @@ public class Pickup : MonoBehaviour {
     public float shiftAmount = 0.2f;
     private bool down = false;
 
+    public int scoreAmount = 200;
+
     private void Start()
     {
         oscillationTimer = Random.Range(0.0f, oscillationTime);
