@@ -10,6 +10,7 @@ public class MineHazard : MonoBehaviour {
     {
         if(collision.GetComponent<PlayerController>() != null)
         {
+            FindObjectOfType<SFXManager>().PlayMine();
             particles.Play();
             GetComponent<Renderer>().enabled = false;
             Destroy(gameObject, 1.0f);

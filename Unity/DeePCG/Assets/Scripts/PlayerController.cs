@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     private GameState gameState = GameState.NOT_STARTED;
     public GameObject projectile;
     public GameObject crosshair;
+    public ParticleSystem warpFX;
 
     public GameObject startSplash;
     public GameObject loadSplash;
@@ -65,6 +66,7 @@ public class PlayerController : MonoBehaviour
 
         transform.position = Vector3.zero;
         anim.ResetTrigger("Die");
+        anim.ResetTrigger("Warp");
         anim.Play("PlayerSwim");
     }
 
@@ -103,11 +105,27 @@ public class PlayerController : MonoBehaviour
         } 
 	}
 
-    private void RegenLevel()
+    private void RegenLevel(float delay = 0.0f)
     {
         if (regenQueued)
             return;
 
+        regenQueued = true;
+
+        if (delay > 0)
+            StartCoroutine(DelayRegen(delay));
+        else
+            StartRegen();
+    }
+
+    private IEnumerator DelayRegen(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        StartRegen();
+    }
+
+    private void StartRegen()
+    {
         gameState = GameState.LOADING;
         loadSplash.SetActive(true);
         regenQueued = true;
@@ -186,7 +204,11 @@ public class PlayerController : MonoBehaviour
         }
         else if(Input.GetKeyDown(KeyCode.Return))
         {
-            RegenLevel();
+            gameState = GameState.LOADING;
+            anim.SetTrigger("Warp");
+            warpFX.Play();
+            FindObjectOfType<SFXManager>().PlayWarp();
+            RegenLevel(2.0f);
         }
         else
         {
@@ -251,6 +273,9 @@ public class PlayerController : MonoBehaviour
 
         if(collision.CompareTag("Enemy"))
         {
+            if (collision.gameObject.GetComponent<EnemyHazard>() != null)
+                FindObjectOfType<SFXManager>().PlayDeath();
+
             anim.SetTrigger("Die");
             score = Mathf.Clamp(score - 1000, 0, score);
             dead = true;
@@ -260,10 +285,11 @@ public class PlayerController : MonoBehaviour
         }
         else if(collision.CompareTag("Pickup"))
         {
+            FindObjectOfType<SFXManager>().PlayPickup();
             score += 200;
             --treasureRemaining;
 
-            if(treasureRemaining <= 0.2f * totalLevelTreasure && !earnedLevelLife)
+            if(treasureRemaining <= 0.5f * totalLevelTreasure && !earnedLevelLife)
             {
                 earnedLevelLife = true;
                 ++livesRemaining;

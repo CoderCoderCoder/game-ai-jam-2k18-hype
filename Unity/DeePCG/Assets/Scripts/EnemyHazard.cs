@@ -24,6 +24,7 @@ public class EnemyHazard : MonoBehaviour {
             Destroy(gameObject, 1.0f);
             sprite.enabled = false;
             dead = true;
+            FindObjectOfType<SFXManager>().PlayKill();
             deathFX.Play();
         }
         else if (collision.gameObject.GetComponent<PlayerController>() == null)
