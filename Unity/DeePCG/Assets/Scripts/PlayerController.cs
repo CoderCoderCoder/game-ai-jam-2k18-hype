@@ -145,6 +145,11 @@ public class PlayerController : MonoBehaviour
         grammarGen.ClearAll();
     }
 
+    public void GiveScore(int addScore)
+    {
+        score += addScore;
+    }
+
     private IEnumerator PerformRegen()
     {
         yield return new WaitForEndOfFrame();

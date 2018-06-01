@@ -9,6 +9,7 @@ public class EnemyHazard : MonoBehaviour {
     public SpriteRenderer sprite;
     private bool dead = false;
     private Vector3 direction = Vector3.right;
+    public int killBonus = 300;
 
 	void Update ()
     {
@@ -21,6 +22,7 @@ public class EnemyHazard : MonoBehaviour {
         if (collision.gameObject.GetComponent<Projectile>())
         {
             gameObject.tag = "Untagged";
+            FindObjectOfType<PlayerController>().GiveScore(killBonus);
             Destroy(gameObject, 1.0f);
             sprite.enabled = false;
             dead = true;
