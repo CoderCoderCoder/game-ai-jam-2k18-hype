@@ -263,7 +263,7 @@ public class PlayerController : MonoBehaviour
             score += 200;
             --treasureRemaining;
 
-            if(treasureRemaining <= 1.0f * totalLevelTreasure && !earnedLevelLife)
+            if(treasureRemaining <= 0.2f * totalLevelTreasure && !earnedLevelLife)
             {
                 earnedLevelLife = true;
                 ++livesRemaining;

@@ -1318,8 +1318,8 @@ MonoBehaviour:
   floorSkipMin: 1
   floorSkipMax: 4
   waterAxiom: ww
-  waterSkipMin: 8
-  waterSkipMax: 32
+  waterSkipMin: 4
+  waterSkipMax: 20
   waterIterations: 7
 --- !u!114 &874804108
 MonoBehaviour:
@@ -2516,7 +2516,7 @@ MonoBehaviour:
   scoreText: {fileID: 907969679}
   treasureText: {fileID: 810193014}
   livesText: {fileID: 2095608929}
-  weaponCool: 0.5
+  weaponCool: 0.3
   moveSpeed: 16
   deathTime: 2
   lives: 3
@@ -7750,7 +7750,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 15
+  orthographic size: 8.3125
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
