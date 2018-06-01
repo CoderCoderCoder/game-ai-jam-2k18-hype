@@ -20,7 +20,7 @@ Entities are spawned using an L-system with a stochastic ruleset that can be cus
 
 Like cave cells, the set of entities is regenerated for each new level.
 ## How To Play
-You play as Coral Flimbit, a deep-sea diver that *might* be a lizard-man wearing people clothes. While this is a whimsical reminder indeed, it serves to remind us all of the current [global reptilian conspiracy](http://reddit.com/r/sneks), ssssomething which should never be taken lightly.
+You play as Coral Flimbit, a deep-sea diver that *might* be a lizard-man wearing people clothes. While this is a whimsical mystery indeed, it serves to remind us all of the current [global reptilian conspiracy](http://reddit.com/r/sneks), ssssomething which should never be taken lightly.
 
 Your core motivation is an undying devotion to shiny objects, and so you have resigned yourself to a life of treasure-hunting in the perilous depths of the Stack Overflowcean. Armed with nothing but your trusty and completely legally purchased harpoon gun, you must brave the ragefish-infested waters to collect as many baubles as possible. How long can you survive before being condemned to a watery grave? (Or becoming complacent and cursing at a mine peeking out from beneath a patch of seaweed?)
 
