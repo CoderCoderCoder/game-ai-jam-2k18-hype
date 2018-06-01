@@ -19,7 +19,7 @@ public class EnemyHazard : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.GetComponent<Projectile>())
+        if (collision.gameObject.GetComponent<Projectile>() && !dead)
         {
             gameObject.tag = "Untagged";
             FindObjectOfType<PlayerController>().GiveScore(killBonus);

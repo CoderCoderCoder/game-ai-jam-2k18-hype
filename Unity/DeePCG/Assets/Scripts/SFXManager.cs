@@ -20,49 +20,42 @@ public class SFXManager : MonoBehaviour
     public void PlayWarp()
     {
         FXSource.Stop();
-        FXSource.clip = warpFX;
-        FXSource.Play();
+        FXSource.PlayOneShot(warpFX);
     }
 
     public void PlayDeath()
     {
         FXSource.Stop();
-        FXSource.clip = deathFX;
-        FXSource.Play();
+        FXSource.PlayOneShot(deathFX);
     }
 
     public void PlayKill()
     {
         FXSource.Stop();
-        FXSource.clip = killFX;
-        FXSource.Play();
+        FXSource.PlayOneShot(killFX);
     }
 
     public void PlayMine()
     {
         FXSource.Stop();
-        FXSource.clip = mineFX;
-        FXSource.Play();
+        FXSource.PlayOneShot(mineFX);
     }
 
     public void PlayPickup()
     {
         FXSource.Stop();
-        FXSource.clip = pickupFX;
-        FXSource.Play();
+        FXSource.PlayOneShot(pickupFX);
     }
 
     public void PlayGameOver()
     {
         FXSource.Stop();
-        FXSource.clip = gameOverFX;
-        FXSource.Play();
+        FXSource.PlayOneShot(gameOverFX);
     }
 
     public void PlayLifeUp()
     {
         FXSource.Stop();
-        FXSource.clip = extraLifeFX;
-        FXSource.Play();
+        FXSource.PlayOneShot(extraLifeFX);
     }
 }

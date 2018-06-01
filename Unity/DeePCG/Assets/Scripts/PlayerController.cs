@@ -203,6 +203,8 @@ public class PlayerController : MonoBehaviour
 
             if(deathTimer > deathTime)
             {
+                --livesRemaining;
+
                 if (livesRemaining < 0)
                 {
                     gameState = GameState.GAME_OVER;
@@ -292,7 +294,6 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("Die");
             score = Mathf.Clamp(score - deathPenalty, 0, score);
             dead = true;
-            --livesRemaining;
 
             deathTimer = 0.0f;
         }

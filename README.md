@@ -26,10 +26,11 @@ Your core motivation is an undying devotion to shiny objects, and so you have re
 
 - Swim around using the WASD keys.  
 - Aim your harpoon gun using the arrow keys. If you don't aim, it will shoot in the direction the player is facing.  
-- Shoot a harpoon using the spacebar. You have unlimited ammo, because this is the magical world of video games.  
+- Shoot a harpoon using the spacebar. You have unlimited ammo, because this is the magical world of video games. You can use your harpoons to slowly but surely tunnel your way through rock to explore as well - see last sentence.   
 - Collect the shiny things. Avoid (or shoot) the fishy things. Avoid the mines. You can't destroy a sea mine with a flimsy bamboo harpoon, what do you think this is, Chuck E. Cheese?  
 - If you collect at least half of the treasures in a level, you will be rewarded with an extra life, which can only delay your inevitable doom (or boredom, if you're anywhere decent at arcade games).  
-- Warp to a new level by pressing enter.  
+- Warp to a new level by pressing enter.
+- Hit escape to quit.  
   
 **Have fun!**  
   

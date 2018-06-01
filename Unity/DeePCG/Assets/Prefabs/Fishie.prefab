@@ -152,7 +152,7 @@ MonoBehaviour:
   swimSpeed: 4
   deathFX: {fileID: 198564602414593634}
   sprite: {fileID: 212970983453445890}
-  killBonus: 200
+  killBonus: 300
 --- !u!198 &198564602414593634
 ParticleSystem:
   m_ObjectHideFlags: 1
