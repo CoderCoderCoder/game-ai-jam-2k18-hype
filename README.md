@@ -3,7 +3,9 @@ Hi everyone! I'm Samantha and this is the demo I built for the Game AI Summer Sc
   
 <img src="https://i.imgur.com/cZLeeo3.png" alt="DeepPCG Screenshot 1 (You know this demo is cool because you can shoot arrows FROM your knees.)" width="400"/> <img src="https://i.imgur.com/Hql19CV.png" alt="DeepPCG Screenshot 2 (Does anyone really READ the alt text anymore? Kids these days.)" width="400"/>
 
-(Disclaimer: Thanks to all the great contributers to sites like [itch.io](https://itch.io/), [OpenGameArt.org](https://opengameart.org/), and [freesound.org](https://freesound.org/) - all assets are pulled from various free sources on the net with minor modifications done in GIMP and Audacity.)
+(Disclaimer: Thanks to all the great contributers to sites like [itch.io](https://itch.io/), [OpenGameArt.org](https://opengameart.org/), and [freesound.org](https://freesound.org/) - all assets are pulled from various free sources on the net with minor modifications done in GIMP and Audacity.)  
+
+This repository contains the complete Unity project which *should* run on any machine with Unity installed. I've also included a prebuilt demo executable for Windows - apologies to Mac and Linux users here, but I've only brought a Windows machine with me. :)
 
 ## The Tech
 Level generation in DeepPCG is split into two main phases, both of which are based heavily on techniques we discussed over the past week. Here's how it works:
