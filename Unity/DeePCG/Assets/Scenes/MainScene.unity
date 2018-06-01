@@ -1030,6 +1030,7 @@ RectTransform:
   - {fileID: 741678916}
   - {fileID: 596181614}
   - {fileID: 107247872}
+  - {fileID: 1092031496}
   m_Father: {fileID: 1893517022}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1405,6 +1406,8 @@ MonoBehaviour:
   - {fileID: 1982664614176258, guid: 0503cbcbd26c977459adab7a75a55ca2, type: 2}
   - {fileID: 1232077797834568, guid: 16f054ea9ea26644f9d1bde757bd7a83, type: 2}
   - {fileID: 1080243869390472, guid: 6ba852ae1aab2db4b8617c4e62513402, type: 2}
+  - {fileID: 1052525194699282, guid: 74ba57218d01fed47961575150b6f9db, type: 2}
+  - {fileID: 1420492232932162, guid: b6ff6d2863d8ffa4096e6158366c1e71, type: 2}
   enemies:
   - {fileID: 1248874596114426, guid: bfd767a20a3185b4fb1723e94650502c, type: 2}
   - {fileID: 1713493299060162, guid: 233c6c2cad259c94996b1c48038e69a3, type: 2}
@@ -6533,6 +6536,82 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1092031495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1092031496}
+  - component: {fileID: 1092031498}
+  - component: {fileID: 1092031497}
+  m_Layer: 5
+  m_Name: Credits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1092031496
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1092031495}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 561884276}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 32, y: -32}
+  m_SizeDelta: {x: 800, y: 100}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1092031497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1092031495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.14070842, g: 0.15156326, b: 0.3207547, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 59c493ac79077ac4bb3801e2bcfe676d, type: 3}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Game   AI   Summer   School   Jam   2018   -   Samantha   Stahlke
+
+    Thanks   to   all   the   great   creative   commons   assets   online'
+--- !u!222 &1092031498
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1092031495}
 --- !u!1 &1104233673
 GameObject:
   m_ObjectHideFlags: 0

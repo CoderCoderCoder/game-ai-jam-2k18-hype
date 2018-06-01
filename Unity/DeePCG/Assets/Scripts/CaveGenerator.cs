@@ -137,7 +137,7 @@ public class CaveGenerator : MonoBehaviour {
     {
         Vector3Int tileCoords = tilemap.WorldToCell(pos);
 
-        if (tileCoords.x < buffer || tileCoords.x > (rows - buffer) || tileCoords.y < buffer || tileCoords.y > (columns - buffer))
+        if (tileCoords.x < buffer || tileCoords.x > (rows - buffer - 1) || tileCoords.y < buffer || tileCoords.y > (columns - buffer - 1))
             return;
 
         if(flora.ContainsKey(tileCoords))

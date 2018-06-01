@@ -158,6 +158,9 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+
         if(gameState == GameState.NOT_STARTED)
         {
             if(Input.GetKeyDown(KeyCode.Return))
