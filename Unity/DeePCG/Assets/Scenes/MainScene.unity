@@ -1537,7 +1537,7 @@ MonoBehaviour:
   - key: b
     transforms:
     - b
-    - fb
+    - fbf
     probabilities:
     - 0.25
     - 1
@@ -1556,7 +1556,7 @@ MonoBehaviour:
   floorAxiom: ff
   floorIterations: 6
   floorSkipMin: 1
-  floorSkipMax: 4
+  floorSkipMax: 3
   waterAxiom: ww
   waterSkipMin: 4
   waterSkipMax: 20
@@ -12767,7 +12767,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.3125
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
