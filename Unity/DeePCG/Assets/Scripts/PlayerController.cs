@@ -5,17 +5,27 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    public enum GameState
+    {
+        NOT_STARTED = 0,
+        LOADING = 100,
+        GAME_OVER = 200
+    };
+
+    private GameState gameState;
     public GameObject projectile;
+    public GameObject crosshair;
 
     public Text scoreText;
     public Text treasureText;
-    public Text deathText;
+    public Text livesText;
 
     public float weaponCool = 0.5f;
     private float weaponTimer = 0.0f;
     public float moveSpeed = 0.0f;
     public float deathTime = 2.0f;
     private float deathTimer = 0.0f;
+    public int lives = 3;
 
     private SpriteRenderer sprite;
     private Animator anim;
@@ -23,10 +33,12 @@ public class PlayerController : MonoBehaviour
 
     private bool cooling = false;
     private bool dead = false;
+    private bool facingRight = false;
+    private bool earnedLevelLife = false;
 
-    public int treasureRemaining { get; set; }
+    private int totalLevelTreasure;
+    private int treasureRemaining;
     private int score = 0;
-    private int deaths = 0;
 
     private void Awake()
     {
@@ -44,6 +56,11 @@ public class PlayerController : MonoBehaviour
         anim.Play("PlayerSwim");
     }
 
+    public void SetNumTreasures(int numTreasures)
+    {
+        totalLevelTreasure = treasureRemaining = numTreasures;
+    }
+
     void FixedUpdate ()
     {
         if(!dead)
@@ -59,9 +76,10 @@ public class PlayerController : MonoBehaviour
             motionAmount = moveSpeed * Time.deltaTime * motionAmount.normalized;
 
             if (motionAmount.x > 0)
-                sprite.flipX = true;
+                sprite.flipX = facingRight = true;
+                
             else if (motionAmount.x < 0)
-                sprite.flipX = false;
+                sprite.flipX = facingRight = false;
 
             transform.position += motionAmount;
         } 
@@ -69,6 +87,14 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if(gameState == GameState.NOT_STARTED)
+        {
+            if(Input.GetKeyDown(KeyCode.Return))
+            {
+
+            }
+        }
+
         if(dead)
         {
             deathTimer += Time.deltaTime;
@@ -76,17 +102,55 @@ public class PlayerController : MonoBehaviour
             if(deathTimer > deathTime)
                 Respawn();
         }
+        else if(Input.GetKeyDown(KeyCode.Return))
+        {
+            CaveGenerator caveGen = FindObjectOfType<CaveGenerator>();
+            GrammarGenerator grammarGen = FindObjectOfType<GrammarGenerator>();
+            caveGen.Generate();
+            grammarGen.Generate();
+            earnedLevelLife = false;
+            Respawn();
+        }
         else
         {
-            if(Input.GetKeyDown(KeyCode.Space) && !cooling)
+            bool leftArrow = Input.GetKey(KeyCode.LeftArrow);
+            bool rightArrow = Input.GetKey(KeyCode.RightArrow);
+            bool upArrow = Input.GetKey(KeyCode.UpArrow);
+            bool downArrow = Input.GetKey(KeyCode.DownArrow);
+
+            if(leftArrow || rightArrow || upArrow || downArrow)
+            {
+                crosshair.SetActive(true);
+                lastAim = Vector3.zero;
+
+                if (leftArrow)
+                    lastAim.x = -2.0f;
+                else if (rightArrow)
+                    lastAim.x = 2.0f;
+                if (upArrow)
+                    lastAim.y = 1.0f;
+                else if (downArrow)
+                    lastAim.y = -1.0f;
+
+                crosshair.transform.localPosition = lastAim + Vector3.up;
+
+                lastAim.Normalize();
+            }
+            else
+            {
+                lastAim = (facingRight) ? Vector3.right : Vector3.left;
+                crosshair.SetActive(false);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Space) && !cooling)
             {
                 cooling = true;
                 Projectile newProjectile = (Instantiate(projectile) as GameObject).GetComponent<Projectile>();
-                newProjectile.Launch(transform.position + lastAim * 0.5f, lastAim);
+                newProjectile.Launch(transform.position + Vector3.up + lastAim, lastAim);
                 weaponTimer = 0.0f;
             }
 
-            if(cooling)
+            if (cooling)
             {
                 weaponTimer += Time.deltaTime;
 
@@ -98,7 +162,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnGUI()
     {
-        deathText.text = deaths.ToString();
+        livesText.text = lives.ToString();
         treasureText.text = treasureRemaining.ToString();
         scoreText.text = score.ToString();
     }
@@ -110,13 +174,20 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("Die");
             score = Mathf.Clamp(score - 1000, 0, score);
             dead = true;
-            ++deaths;
+            --lives;
             deathTimer = 0.0f;
         }
         else if(collision.CompareTag("Pickup"))
         {
             score += 200;
             --treasureRemaining;
+
+            if(treasureRemaining <= 0.2f * totalLevelTreasure && !earnedLevelLife)
+            {
+                earnedLevelLife = true;
+                ++lives;
+            }
+
             Destroy(collision.gameObject);
         }
     }

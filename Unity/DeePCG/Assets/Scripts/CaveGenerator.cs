@@ -49,7 +49,7 @@ public class CaveGenerator : MonoBehaviour {
         Generate();
     }
 
-    void Generate()
+    public void Generate()
     {
         PopulateInitially();
 
@@ -186,6 +186,7 @@ public class CaveGenerator : MonoBehaviour {
 
         tilemap.ClearAllTiles();
         floorCoordinates.Clear();
+        waterCoordinates.Clear();
         flora.Clear();
 
         Vector3Int playerOrigin = tilemap.WorldToCell(Vector3.zero);
@@ -270,7 +271,7 @@ public class CaveGenerator : MonoBehaviour {
                     }
 
                 }
-                else
+                else if(Vector3.SqrMagnitude(tilemap.CellToWorld(pos) - Vector3.zero) > 16.0f)
                     waterCoordinates.Add(pos);
             }
         }

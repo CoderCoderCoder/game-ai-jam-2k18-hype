@@ -34,6 +34,8 @@ public class GrammarGenerator : MonoBehaviour {
     private Dictionary<char, ObjType> charToObj;
     private Dictionary<ObjType, char> objToChar;
 
+    private List<GameObject> worldContents;
+
     public string floorAxiom;
     public int floorIterations = 4;
     public int floorSkipMin = 1;
@@ -69,16 +71,29 @@ public class GrammarGenerator : MonoBehaviour {
             ruleDict.Add(rules[i].key, rules[i]);
         }
 
+        worldContents = new List<GameObject>();
+
+        Generate();
+	}
+
+    public void Generate()
+    {
+        for(int i = 0; i < worldContents.Count; ++i)
+        {
+            Destroy(worldContents[i]);
+        }
+        worldContents.Clear();
+
         waterString = waterAxiom;
 
-        for(int i = 0; i < waterIterations; ++i)
+        for (int i = 0; i < waterIterations; ++i)
         {
             waterString = Iterate(waterString);
         }
 
         floorString = floorAxiom;
 
-        for(int i = 0; i < floorIterations; ++i)
+        for (int i = 0; i < floorIterations; ++i)
         {
             floorString = Iterate(floorString);
         }
@@ -87,7 +102,7 @@ public class GrammarGenerator : MonoBehaviour {
         print("Floor: " + floorString);
 
         Populate();
-	}
+    }
 
     string Iterate(string axiom)
     {
@@ -117,6 +132,8 @@ public class GrammarGenerator : MonoBehaviour {
 
     void Populate()
     {
+        worldContents.Clear();
+
         float enemyDivision = 1.0f / enemies.Count;
         float floraDivision = 1.0f / flora.Count;
         float pickupDivision = 1.0f / pickups.Count;
@@ -141,6 +158,7 @@ public class GrammarGenerator : MonoBehaviour {
                     index = Mathf.Min((int)(prob / enemyDivision), enemies.Count - 1);
                     GameObject newEnemy = Instantiate(enemies[index]) as GameObject;
                     newEnemy.transform.position = cave.GetWaterCoords(i);
+                    worldContents.Add(newEnemy);
 
                     break;
 
@@ -150,6 +168,7 @@ public class GrammarGenerator : MonoBehaviour {
                     index = Mathf.Min((int)(prob / pickupDivision), pickups.Count - 1);
                     GameObject newPickup = Instantiate(pickups[index]) as GameObject;
                     newPickup.transform.position = cave.GetWaterCoords(i);
+                    worldContents.Add(newPickup);
 
                     break;
             }
@@ -159,7 +178,7 @@ public class GrammarGenerator : MonoBehaviour {
 
         print("Water Tile Spec Surplus: " + (tilesProcessed - numWaterTiles));
 
-        FindObjectOfType<PlayerController>().treasureRemaining = numPickups;
+        FindObjectOfType<PlayerController>().SetNumTreasures(numPickups);
 
         tilesProcessed = 0;
         for (int i = 0, c = 0; i < numFloorTiles && c < floorString.Length; i += tileSkip, ++c, tilesProcessed += tileSkip)
@@ -177,6 +196,7 @@ public class GrammarGenerator : MonoBehaviour {
                     newFlora.transform.position = cave.GetFloorCoords(i);
 
                     cave.flora.Add(cave.GetTileCoords(newFlora.transform.position), newFlora);
+                    worldContents.Add(newFlora);
 
                     break;
             }
