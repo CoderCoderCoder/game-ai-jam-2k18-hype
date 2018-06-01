@@ -23,8 +23,11 @@ public class PlayerController : MonoBehaviour
     public GameObject overSplash;
 
     public Text scoreText;
+    public Text gameOverScoreText;
     public Text treasureText;
     public Text livesText;
+
+    public int deathPenalty = 2000;
 
     public float weaponCool = 0.5f;
     private float weaponTimer = 0.0f;
@@ -198,8 +201,10 @@ public class PlayerController : MonoBehaviour
                 if (livesRemaining < 0)
                 {
                     gameState = GameState.GAME_OVER;
+                    gameOverScoreText.text = "Final   Score:   " + score.ToString();
                     overSplash.SetActive(true);
                     StartCoroutine(DestroyLevel());
+                    FindObjectOfType<SFXManager>().PlayGameOver();
                 }
                 else
                     Respawn();
@@ -280,7 +285,7 @@ public class PlayerController : MonoBehaviour
                 FindObjectOfType<SFXManager>().PlayDeath();
 
             anim.SetTrigger("Die");
-            score = Mathf.Clamp(score - 1000, 0, score);
+            score = Mathf.Clamp(score - deathPenalty, 0, score);
             dead = true;
             --livesRemaining;
 
@@ -288,7 +293,7 @@ public class PlayerController : MonoBehaviour
         }
         else if(collision.CompareTag("Pickup"))
         {
-            FindObjectOfType<SFXManager>().PlayPickup();
+            
             score += collision.gameObject.GetComponent<Pickup>().scoreAmount;
             --treasureRemaining;
 
@@ -296,7 +301,10 @@ public class PlayerController : MonoBehaviour
             {
                 earnedLevelLife = true;
                 ++livesRemaining;
+                FindObjectOfType<SFXManager>().PlayLifeUp();
             }
+            else
+                FindObjectOfType<SFXManager>().PlayPickup();
 
             Destroy(collision.gameObject);
         }
